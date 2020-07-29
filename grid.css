@@ -1,0 +1,28 @@
+.MainContainer {
+    display: grid;
+    height:auto;
+    width: auto;
+    grid-template-areas: 'header header header header' 'Article1 Article2 Article3 Space' 'footer footer footer footer';
+  }
+  .item1 { grid-area: header; }
+  .item2 { grid-area: Article1; }
+  .item3 { grid-area: Article2; }
+  .item4 { grid-area: Article3; }
+  .item5 { grid-area: Space; }
+  .item6 { grid-area: footer; }
+  .style {
+      border: 1px solid black;
+      height: 200px;
+      width: auto;
+      margin: 20px;
+      background-color: antiquewhite;
+      opacity: 0.6;
+      font-size: 20px;
+      font-weight: 700;
+      padding: 2px;
+  }
+  body {
+    background-image: url("https://cdn.pixabay.com/photo/2018/12/18/22/38/background-3883199_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
